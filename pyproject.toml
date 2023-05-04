@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "decrypt-zhihu"
+version = "0.1.0"
+description = ""
+authors = ["cxzlw <wsc_zds@qq.com>"]
+readme = "README.md"
+packages = [{include = "decrypt_zhihu"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fonttools = "^4.39.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
